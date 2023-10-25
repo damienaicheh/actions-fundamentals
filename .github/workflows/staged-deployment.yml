@@ -51,21 +51,21 @@ jobs:
     if: github.event.inputs.environment == 'Production'
     steps:
       - run: |
-          Step 1 deploying...
+         echo "Step 1 deploying..."
           sleep 10
 
       - run: |
-          Step 2 deploying...
+          echo "Step 2 deploying..."
           sleep 10
 
       - run: |
-          Step 3 deploying...
+          echo "Step 3 deploying..."
           sleep 10
 
       - run: |
-          Step 4 deploying...
+          echo "Step 4 deploying..."
           sleep 10
 
       - run: |
-          Step 5 deploying...
+          echo "Step 5 deploying..."
           sleep 10
