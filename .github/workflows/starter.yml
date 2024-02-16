@@ -11,10 +11,10 @@ on:
     types: [opened, reopened]
     
   # Scheduled events
-  schedule:
+  # schedule:
     # - cron: '*/15 * * * *'
     # - cron: '0 9-17 * * *'
-    - cron: '11 11 * * 5'
+    # - cron: '11 11 * * 5'
 
   # Manual events
   workflow_dispatch:
